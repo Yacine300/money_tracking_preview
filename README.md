@@ -13,6 +13,7 @@ The Money Tracking App is a Flutter application designed to help users manage an
 - **Manage Expenses**: Edit or delete existing expenses to keep your records accurate.
 - **View Expenditures**: Select a year and month to view all expenses within that period, helping you to track and manage your finances more effectively.
 - **Categorized Overview**: Visual representation of expenses categorized for better understanding and analysis.
+- **Store Data in user device** : the money tracking application take adventage of local storage to store private user expanses.
 
 ## State Management
 
@@ -22,33 +23,35 @@ This application uses the Riverpod state management solution, providing a robust
 if you are not familiar with the riverpod state managment solution please click https://github.com/Yacine300/riverpod-learning-app 
 
 
-## Installation
-
-To get started with the Money Tracking App, follow these steps:
-
-1. **Clone the repository**:
-   ```sh
-   git clone https://github.com/Yacine300/money_tracking.git
-   ```
-2. **Navigate to the project directory**:
-   ```sh
-   cd money_tracking
-   ```
-3. **Install dependencies**:
-   ```sh
-   flutter pub get
-   ```
-4. **Run the application**:
-   ```sh
-   flutter run
-   ```
-
 ## Dependencies
 
 The app relies on the following main dependencies:
 
 - [Riverpod](https://pub.dev/packages/riverpod): For state management.
 - [Flutter](https://flutter.dev): For building the app.
+
+  ```yaml
+dependencies:
+  flutter:
+    sdk: flutter  # The core Flutter SDK
+
+  intl: ^0.18.1  # Internationalization and localization support
+  
+  auto_size_text: ^3.0.0  # Automatically resizes text to fit within its bounds
+  
+  percent_indicator: ^4.2.3  # Widgets to display progress indicators with a percentage
+  
+  flutter_riverpod: ^2.3.10  # As a state managment solution
+  
+  crypto: ^3.0.3  # Cryptographic functions for hashing, HMAC, and more
+  
+  path: ^1.8.3  # Utilities for manipulating file and directory paths
+  
+  sqflite: ^2.2.8+4  # SQLite plugin for Flutter to handle local database operations
+  
+  delayed_display: ^2.0.0  # Widgets to delay the display of their child for a specified duration
+
+  
 
 ## Contributing
 
