@@ -30,7 +30,7 @@ The app relies on the following main dependencies:
 - [Riverpod](https://pub.dev/packages/riverpod): For state management.
 - [Flutter](https://flutter.dev): For building the app.
 
-  ```yaml
+```yaml
 dependencies:
   flutter:
     sdk: flutter  # The core Flutter SDK
@@ -51,7 +51,8 @@ dependencies:
   
   delayed_display: ^2.0.0  # Widgets to delay the display of their child for a specified duration
 
-  
+  ```
+
 
 ## Contributing
 
